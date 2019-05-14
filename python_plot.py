@@ -3,5 +3,6 @@ import numpy as np
 
 x = np.arange(0, 6*np.pi, 0.1) #start,stop,step
 y = np.sin(x)
-plt.plot(x,y)
+plt.plot(x, y)
 plt.show()
+
